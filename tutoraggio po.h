@@ -26,7 +26,7 @@ Class Coda{
 				for(int i=0;i<size;i++)
 					q[i]=c.q[i];
 			}
-			return 
+			return *this;
 		}
 		void push(T e)
 		{
